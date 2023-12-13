@@ -37,9 +37,9 @@ Dependency Inversion - классы должны зависеть от абст�
 
 2. Класс StudentService зависит от ArrayList, но вдруг мы захотим использовать LinkedList или свой класс? (13 строка)
 
-    public StudentService() {
-    this.students = new ArrayList<>();
-    }
+        public StudentService() {
+        this.students = new ArrayList<>();
+        }
 
 Заменить на:
 
